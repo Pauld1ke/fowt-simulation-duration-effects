@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+# large simulation output, wind fields and generated plots
+project/DLC1p1/[0-9]*s/
+project/DLC1p1/Plots/
+project/01EnviroData/TurbSim_*
+project/01EnviroData/*.bts
+*.OUT
+*.out
+*.outb
+*.chkp
+*.bts
+*.sum
+*.MD.out
+# local release notes
+RELEASE_CHECKLIST.md
