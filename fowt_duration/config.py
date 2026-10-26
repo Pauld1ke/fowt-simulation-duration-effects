@@ -27,3 +27,4 @@ RUN_IN_S = 200                                                       # s discard
 # output file names (<...>_<duration>s_<label>.OUT).  CONFIRM THE FINAL SEED TABLE BEFORE RELEASE.
 SEED_NUMBERS = [2318573, 3318574, 4318575, 4319572, 4319573]
 SEED_LABELS = ["Seed1", "Seed2", "Seed3", "Seed4", "Seed5"]
+SeedNoDict = dict(zip(seeds, SeedNoList))
